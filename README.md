@@ -1,7 +1,7 @@
 # Mortgage-predictive modelling
 The report here presents exploratory data analysis of the HMDA mortgage application dataset along with the machine learning predicting model for loan approval. The dataset can be downloaded from CFPB website at: https://www.consumerfinance.gov/data-research/hmda/historic-data/
 
-# Exploratory data analysis (EDA) of 2017 HDMA datatset
+# Exploratory data analysis (EDA)
 The EDA of 2017-HDMA dataset is available in [EDA-loan-dataset.ipynb](https://github.com/alilajevardi/Mortgage/blob/main/EDA-loan-dataset.ipynb)
 
 After doing basic exploratory analysis, visualization and data cleaning and processing, the most essential features of the dataset are identified that provide information two label classes (mortgage accepted/rejected).
