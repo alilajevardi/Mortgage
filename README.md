@@ -87,3 +87,20 @@ The KDE plot can help to understand visually which features provide more informa
 As we can see loan_amount, applicant_income, minority_population and hud_median_family_income are the most important numerical features for the binary classification.
 
 ![KDE_1](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/KDE_1.png)
+
+
+## Ploting categorical features to visually examine class separation
+
+As we can see, some of the categorical features provide information about class separation.
+
+![Bar_chart_2](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Barchart_cat.png)
+
+
+
+## Correlation in dataset
+
+The correlation heatmap helps us visually identify any features that are highly correlated.
+
+Including those in the binary classifier is redundant, because the information they provide is highly overlapping, so they will be discarded from the final dataset. We can see that the new features we created earlier, are highly correlated with those that comprise them. This is fairly self-evident and reasonable, so I decided to drop the original features.
+
+![Correlation](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Corr.png)
