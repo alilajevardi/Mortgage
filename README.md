@@ -36,4 +36,33 @@ We need to have first three numbers for prediction model and drop other numbers.
 
 ![Pie_chart_2](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Pie_02.png)
 
+With applying above-mentioned changes in features and NaN cleaning, we get:
+
+```text
+agency_code                       6944633
+loan_type                         6944633
+property_type                     6944633
+owner_occupancy                   6944633
+loan_amount_000s                  6944633
+action_taken                      6944633
+msamd                             6944633
+state_code                        6944633
+county_code                       6944633
+census_tract_number               6944633
+applicant_ethnicity               6944633
+applicant_race_1                  6944633
+applicant_sex                     6944633
+applicant_income_000s             6944633
+lien_status                       6944633
+population                        6944633
+minority_population               6944633
+hud_median_family_income          6944633
+tract_to_msamd_income             6944633
+number_of_owner_occupied_units    6944633
+number_of_1_to_4_family_units     6944633
+
+```
+
+
+
 
