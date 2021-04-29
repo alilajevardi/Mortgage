@@ -64,5 +64,7 @@ number_of_1_to_4_family_units     6944633
 ```
 
 
+As one can see the above pie chart, dataset is not balanced. As below graph shows the nombuer of approved cases are much higher than rejected ones.
 
+![Bar_chart_2](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Barchart_labels.png)
 
