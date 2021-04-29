@@ -125,3 +125,7 @@ The classification report and the confusion matrix demonstrate the accuracy of t
 
 ![Accuracy](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/ConfusionMatrix.png)
 
+# Deployment
+The trained model has been deplyed on AWS SageMaker. It required a connection to AWS to test the prediction.
+
+A new Model based on CI\CD practise has beed built on Azure ML that can be tested via [Azure-deploy.ipynb](https://github.com/alilajevardi/Mortgage/blob/main/Azure_Deploy.ipynb). It required to have the REST endpoint address and an API key.
