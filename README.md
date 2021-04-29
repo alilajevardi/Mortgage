@@ -5,11 +5,27 @@ After doing basic exploratory analysis, visualization and data cleaning and proc
 
 Those features were subsequentely used for the creation of a binary classifier capable of predicting whether an application will be accepted or not, with an accuracy of 73%. The most important features of the dataset are the following, however the description of all label can be found at: https://files.consumerfinance.gov/hmda-historic-data-dictionaries/lar_record_codes.pdf
 
-    loan_amount - Size of the requested loan in thousands of dollars
-    msamd - A categorical with no ordering indicating Metropolitan Statistical Area/Metropolitan Division
-    state_code - A categorical with no ordering indicating the U.S. state
-    country_code - Three-digit FIPS county identifier
-    applicant_income - In thousands of dollars
-    number_of_owner-occupied_units - Number of dwellings, including individual condominiums, that are lived in by the owner
-    minority_population - Number of people that belong in a minority group, a new feature that was created for the purposes of this analysis
-    tract_family_income - The tract median family income in dollars, another feature that was created for the purposes of this analysis
+- loan_amount - Size of the requested loan in thousands of dollars
+- msamd - A categorical with no ordering indicating Metropolitan Statistical Area/Metropolitan Division
+- state_code - A categorical with no ordering indicating the U.S. state
+- country_code - Three-digit FIPS county identifier
+- applicant_income - In thousands of dollars
+- number_of_owner-occupied_units - Number of dwellings, including individual condominiums, that are lived in by the owner
+- minority_population - Number of people that belong in a minority group, a new feature that was created for the purposes of this analysis
+- tract_family_income - The tract median family income in dollars, another feature that was created for the purposes of this analysis
+
+After initial EDA, it found out that some columns need to be removed due to lack of data and correlation with other columns. Furthermore, we can read on the dataset description that some categorical features include categories that correspond to missing values, e.g. the -1 category of 'msamd' column indicates a missing value. It is important to remove some categories from categorical features to have a consistant datatset.
+Regarding the labels that is 'Action_taken' column we have different classes as:
+
+ (1) Loan originated.
+ (2) Application approved but not accepted.
+ (3) Application denied by financial institution
+ (4) Application withdrawn by applicant
+ (5) File closed for incompleteness
+ (6) Loan purchased by the institution
+ (7) Preapproval request denied by financial institution
+ (8) Preapproval request approved but not accepted (optional reporting)
+
+with the distribution of 
+![Pie_chart_1](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Pie_01.png)
+
