@@ -26,6 +26,14 @@ Regarding the labels that is 'Action_taken' column we have different classes as:
  (7) Preapproval request denied by financial institution
  (8) Preapproval request approved but not accepted (optional reporting)
 
-with the distribution of 
+with the distribution of
+
 ![Pie_chart_1](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Pie_01.png)
+
+
+
+We need to have first three numbers for prediction model and drop other numbers. Then reducing to two lables as 0 (rejected) and 1 (approved) by combining 1 and 2 values in 1 and changing 3 to 0.
+
+![Pie_chart_2](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Pie_02.png)
+
 
