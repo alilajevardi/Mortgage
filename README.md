@@ -104,3 +104,24 @@ The correlation heatmap helps us visually identify any features that are highly 
 Including those in the binary classifier is redundant, because the information they provide is highly overlapping, so they will be discarded from the final dataset. We can see that the new features we created earlier, are highly correlated with those that comprise them. This is fairly self-evident and reasonable, so I decided to drop the original features.
 
 ![Correlation](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Corr.png)
+
+
+# Machine Learning Modelling
+
+For the creation of the binary classifier, various algorithms were tested such as Logistic Regression, K-Nearest Neighbors and Support Vector Machines. However, their accuracy were below 70%.
+
+The highest accuracy (about ~73%) cames from the XGBoost clasifier that is mentioned here.
+
+The XGBoost Classifier wes used for the modelling along with the scikit-earn library for data preprocessing, metrics and model selection.
+
+The one-hot encoding was applied to low-cardinality categorical features, as it is typical in machine learning. The high-cardinality features were dealt like numerical data.
+
+The StandardScaler function was used to to scale numerical features.
+
+The train_test_split function was employed to split the dataset.
+
+
+The classification report and the confusion matrix demonstrate the accuracy of the model. The accuracy of the binary classifier is not great, but it could possibly be improved if more useful features were added on the dataset or by exploring the performance of other algorithms and techniques.
+
+![Accuracy](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/ConfusionMatrix.png)
+
