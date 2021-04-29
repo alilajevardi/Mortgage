@@ -80,3 +80,10 @@ The approval class consists of 81.5% where rejection data filles 18.5% of datase
 The below histograms of the numerical features demonstrate the distribution of data in diffrent columns.
 
 ![Histogram](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Histogram.png)
+
+
+The KDE plot can help to understand visually which features provide more information about the separation of two classes of approval and rejection.
+
+As we can see loan_amount, applicant_income, minority_population and hud_median_family_income are the most important numerical features for the binary classification.
+
+![KDE_1](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/KDE_1.png)
