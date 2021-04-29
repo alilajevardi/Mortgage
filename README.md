@@ -110,6 +110,7 @@ Including those in the binary classifier is redundant, because the information t
 
 
 # Machine Learning Modelling
+The developed model is available in the notebook at [MLmodelling-loan-prediction.ipynb](https://github.com/alilajevardi/Mortgage/blob/main/MLmodelling-loan-prediction.ipynb).
 
 For the creation of the binary classifier, various algorithms were tested such as Logistic Regression, K-Nearest Neighbors and Support Vector Machines. However, their accuracy were below 70%.
 
