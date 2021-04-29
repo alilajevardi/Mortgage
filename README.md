@@ -66,5 +66,17 @@ number_of_1_to_4_family_units     6944633
 
 As one can see the above pie chart, dataset is not balanced. As below graph shows the nombuer of approved cases are much higher than rejected ones.
 
-![Bar_chart_2](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Barchart_labels.png)
+![Bar_chart_1](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Barchart_labels.png)
 
+
+```text
+1.0    0.815335
+0.0    0.184665
+Name: action_taken, dtype: float64
+```
+
+The approval class consists of 81.5% where rejection data filles 18.5% of dataset.
+
+The below histograms of the numerical features demonstrate the distribution of data in diffrent columns.
+
+![Histogram](https://github.com/alilajevardi/Mortgage/blob/main/artifacts/Histogram.png)
